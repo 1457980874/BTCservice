@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc70b6c3-19a7-4b20-b5fd-d28449d71000" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/Bip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/BipSoftforks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/BlockChainInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/BlockInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/SoftFork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/BTCcommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/BTCservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/BTCservice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/rpcResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/rpcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/rpcUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/testConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/testConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/BTCcommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/BTCcommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/BTCservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/BTCservice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/rpcResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/rpcResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/rpcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/rpcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/testConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/testConnect.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="101" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BitCoinConnect" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1lAhYUcmvUQAYNUTZvMDd3Qa922" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BitcoinConnection" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaProject\BitCoinConnect\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaProject\BitCoinConnect\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.testConnect">
+    <configuration name="BTCconnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BTC.rpcConnect.BTCconnect" />
+      <module name="BitCoinConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BTC.rpcConnect.Demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JSONdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BTC.rpcConnect.Demo.JSONdemo" />
+      <module name="BitCoinConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BTC.rpcConnect.Demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BTC.rpcConnect.Demo.mapDemo" />
+      <module name="BitCoinConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BTC.rpcConnect.Demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rpcUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BTC.rpcConnect.rpcUtils" />
+      <module name="BitCoinConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BTC.rpcConnect.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BTC.rpcConnect.testConnect" />
+      <module name="BitCoinConnect" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BTC.rpcConnect.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.testConnect" />
+        <item itemvalue="Application.BTCconnect" />
+        <item itemvalue="Application.rpcUtils" />
+        <item itemvalue="Application.mapDemo" />
+        <item itemvalue="Application.JSONdemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Lenovo\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc70b6c3-19a7-4b20-b5fd-d28449d71000" name="Default Changelist" comment="" />
+      <created>1607045850818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607045850818</updated>
+      <workItem from="1607045856966" duration="5650000" />
+      <workItem from="1607252026607" duration="3565000" />
+      <workItem from="1607302008820" duration="14898000" />
+      <workItem from="1607338029382" duration="5545000" />
+      <workItem from="1607349866756" duration="3747000" />
+      <workItem from="1607387548373" duration="179000" />
+      <workItem from="1607387776231" duration="25003000" />
+      <workItem from="1607507869077" duration="10479000" />
+    </task>
+    <task id="LOCAL-00001" summary="BTCcommandAndService">
+      <created>1607512611690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607512611691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BTCcommandAndService" />
+    <option name="LAST_COMMIT_MESSAGE" value="BTCcommandAndService" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="422" y="76" key="#com.intellij.ide.util.MemberChooser" timestamp="1607524444430">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="422" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1607524444430" />
+    <state x="525" y="0" key="CommitChangelistDialog2" timestamp="1607512609035">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="525" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1607512609035" />
+    <state x="121" y="52" key="DiffContextDialog" timestamp="1607391944311">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="121" y="52" key="DiffContextDialog/0.0.1280.689@0.0.1280.689" timestamp="1607391944311" />
+    <state x="616" y="149" key="FileChooserDialogImpl" timestamp="1607519346543">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="616" y="149" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1607519346543" />
+    <state width="693" height="195" key="GridCell.Tab.0.bottom" timestamp="1607525437103">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="693" height="195" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607525437103" />
+    <state width="693" height="195" key="GridCell.Tab.0.center" timestamp="1607525437103">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="693" height="195" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607525437103" />
+    <state width="693" height="195" key="GridCell.Tab.0.left" timestamp="1607525437103">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="693" height="195" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607525437103" />
+    <state width="693" height="195" key="GridCell.Tab.0.right" timestamp="1607525437103">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="693" height="195" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607525437103" />
+    <state width="1237" height="202" key="GridCell.Tab.1.bottom" timestamp="1607344711210">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="202" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607344711210" />
+    <state width="1237" height="202" key="GridCell.Tab.1.center" timestamp="1607344711210">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="202" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1607344711210" />
+    <state width="1237" height="202" key="GridCell.Tab.1.left" timestamp="1607344711210">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="202" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1607344711210" />
+    <state width="1237" height="202" key="GridCell.Tab.1.right" timestamp="1607344711210">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="202" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1607344711210" />
+    <state x="158" y="0" key="SettingsEditor" timestamp="1607391825318">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="158" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1607391825318" />
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1607512655189">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1607512655189" />
+    <state x="628" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1607507870764">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="628" y="346" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1607507870764" />
+    <state x="439" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607391900484">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="439" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1607391900484" />
+    <state x="56" y="0" key="new project wizard" timestamp="1607252557570">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="56" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1607252557570" />
+    <state x="337" y="202" width="669" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607391823662">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="337" y="202" width="669" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.689@0.0.1280.689" timestamp="1607391823662" />
+    <state x="569" y="160" key="run.anything.popup" timestamp="1607254599223">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="569" y="160" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1607254599223" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BitCoinConnect$testConnect.ic" NAME="testConnect Coverage Results" MODIFIED="1607513760485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.BTC.rpcConnect.entity.*</FILTER>
+    </SUITE>
+  </component>
+</project>
