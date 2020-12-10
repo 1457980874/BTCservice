@@ -98,4 +98,5 @@ public class rpcUtils {
     public static String base64Str(String msg){
         return Base64.getEncoder().encodeToString(msg.getBytes(StandardCharsets.UTF_8));
     }
+
 }

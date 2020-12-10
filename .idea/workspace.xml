@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc70b6c3-19a7-4b20-b5fd-d28449d71000" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/Bip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/BipSoftforks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/BlockChainInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/BlockInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/SoftFork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/BTCcommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/BTCservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/BTCservice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/rpcResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/rpcUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/rpcUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/testConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/testConnect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/BTCcommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/BTCcommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/BTCservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/BTCservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/rpcResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/rpcResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/rpcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/rpcUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/testConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/testConnect.java" afterDir="false" />
     </list>
@@ -34,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -91,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSONdemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.BTC.rpcConnect.Demo.JSONdemo" />
+    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BTC.rpcConnect.Demo.EnumDemo" />
       <module name="BitCoinConnect" />
       <extension name="coverage">
         <pattern>
@@ -146,10 +135,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.testConnect" />
+        <item itemvalue="Application.EnumDemo" />
         <item itemvalue="Application.BTCconnect" />
         <item itemvalue="Application.rpcUtils" />
         <item itemvalue="Application.mapDemo" />
-        <item itemvalue="Application.JSONdemo" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +159,8 @@
       <workItem from="1607349866756" duration="3747000" />
       <workItem from="1607387548373" duration="179000" />
       <workItem from="1607387776231" duration="25003000" />
-      <workItem from="1607507869077" duration="10479000" />
+      <workItem from="1607507869077" duration="11273000" />
+      <workItem from="1607566988079" duration="8843000" />
     </task>
     <task id="LOCAL-00001" summary="BTCcommandAndService">
       <created>1607512611690</created>
@@ -203,10 +193,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="BTCcommandAndService" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="422" y="76" key="#com.intellij.ide.util.MemberChooser" timestamp="1607524444430">
+    <state x="422" y="76" key="#com.intellij.ide.util.MemberChooser" timestamp="1607572093425">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="422" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1607524444430" />
+    <state x="422" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1607572093425" />
     <state x="525" y="0" key="CommitChangelistDialog2" timestamp="1607512609035">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -219,22 +209,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="616" y="149" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1607519346543" />
-    <state width="693" height="195" key="GridCell.Tab.0.bottom" timestamp="1607525437103">
+    <state width="694" height="171" key="GridCell.Tab.0.bottom" timestamp="1607602547348">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="693" height="195" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607525437103" />
-    <state width="693" height="195" key="GridCell.Tab.0.center" timestamp="1607525437103">
+    <state width="694" height="171" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607602547348" />
+    <state width="694" height="171" key="GridCell.Tab.0.center" timestamp="1607602547348">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="693" height="195" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607525437103" />
-    <state width="693" height="195" key="GridCell.Tab.0.left" timestamp="1607525437103">
+    <state width="694" height="171" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607602547348" />
+    <state width="694" height="171" key="GridCell.Tab.0.left" timestamp="1607602547348">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="693" height="195" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607525437103" />
-    <state width="693" height="195" key="GridCell.Tab.0.right" timestamp="1607525437103">
+    <state width="694" height="171" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607602547348" />
+    <state width="694" height="171" key="GridCell.Tab.0.right" timestamp="1607602547348">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="693" height="195" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607525437103" />
+    <state width="694" height="171" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607602547348" />
     <state width="1237" height="202" key="GridCell.Tab.1.bottom" timestamp="1607344711210">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -259,10 +249,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1607512655189" />
-    <state x="628" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1607507870764">
+    <state x="628" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1607566992090">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="628" y="346" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1607507870764" />
+    <state x="628" y="346" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1607566992090" />
     <state x="439" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607391900484">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

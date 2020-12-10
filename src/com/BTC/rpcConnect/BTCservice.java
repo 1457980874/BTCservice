@@ -1,9 +1,6 @@
 package com.BTC.rpcConnect;
 
-import com.BTC.rpcConnect.entity.BTCcommand;
-import com.BTC.rpcConnect.entity.BlockChainInfo;
-import com.BTC.rpcConnect.entity.BlockInfo;
-import com.BTC.rpcConnect.entity.rpcResult;
+import com.BTC.rpcConnect.entity.*;
 import com.alibaba.fastjson.JSON;
 import org.apache.http.HttpStatus;
 
@@ -67,6 +64,20 @@ public class BTCservice {
         if (result.getCode() ==HttpStatus.SC_OK){
             String resultStr = result.getData().getResult();
             return JSON.parseObject(resultStr,BlockInfo.class);
+        }
+        return null;
+    }
+
+    public String getNewAddress(String label, ADDRESS_TYPE type){
+        //String addressType = type.getAddressType();
+        String addresstype = EnumUtils.getAddressType(type);
+        String json = rpcUtils.prepareJSON("getnewaddress",label,addresstype);
+        rpcResult result = rpcUtils.DoPost(RPCinformation.RPCURL,map,json);
+        if (result == null){
+            return null;
+        }
+        if (result.getCode() == HttpStatus.SC_OK){
+            return result.getData().getResult();
         }
         return null;
     }

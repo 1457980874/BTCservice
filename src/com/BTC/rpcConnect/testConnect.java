@@ -3,6 +3,7 @@ package com.BTC.rpcConnect;
 import com.BTC.rpcConnect.entity.Bip;
 import com.BTC.rpcConnect.entity.BlockChainInfo;
 import com.BTC.rpcConnect.entity.BlockInfo;
+import com.BTC.rpcConnect.entity.address_type;
 import org.apache.http.HttpStatus;
 
 import java.util.HashMap;
@@ -31,7 +32,17 @@ public class testConnect {
         if (block != null){
             System.out.println("当前区块大小："+block.getSize());
             System.out.println("时间："+block.getTime());
+            System.out.println("交易ID："+block.getTx());
         }
+        address_type type = new address_type();
+        type.setType(1);
+
+
+        String address = server.getNewAddress("cjm",ADDRESS_TYPE.LEGACY);
+        System.out.println("新地址是："+address);
+        //bc1qskldlzehg5856v693pk0mg9agd3lrge2m9tjg2
+        //33cEdnXP77rDu2TnCEBdMmpKEECjRMwbxd
+        //1N54aQdkMZifitcMzypMpQwi8Dph4uSPLc
     }
 
     /*public String getBestBlockHash(){
@@ -46,4 +57,6 @@ public class testConnect {
         }
         return null;
     }*/
+
+
 }
