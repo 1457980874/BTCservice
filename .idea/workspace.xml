@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc70b6c3-19a7-4b20-b5fd-d28449d71000" name="Default Changelist" comment="">
+    <list default="true" id="fc70b6c3-19a7-4b20-b5fd-d28449d71000" name="Default Changelist" comment="BTCcommandAndService">
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/AddressInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/BlockHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/Chain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/Locked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/MemoryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/MempoolInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/TXOutSetInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/entity/WalletInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/BTCservice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/BTCservice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/testConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BitCoinConnect/com/BTC/rpcConnect/testConnect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/BTCservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/BTCservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/rpcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/rpcUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/BTC/rpcConnect/testConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/BTC/rpcConnect/testConnect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +168,10 @@
       <workItem from="1607387548373" duration="179000" />
       <workItem from="1607387776231" duration="25003000" />
       <workItem from="1607507869077" duration="11273000" />
-      <workItem from="1607566988079" duration="8843000" />
+      <workItem from="1607566988079" duration="9512000" />
+      <workItem from="1607646349667" duration="2142000" />
+      <workItem from="1607847059744" duration="806000" />
+      <workItem from="1607848220005" duration="13341000" />
     </task>
     <task id="LOCAL-00001" summary="BTCcommandAndService">
       <created>1607512611690</created>
@@ -193,14 +204,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="BTCcommandAndService" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="422" y="76" key="#com.intellij.ide.util.MemberChooser" timestamp="1607572093425">
+    <state x="422" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1607861442661">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="422" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1607572093425" />
-    <state x="525" y="0" key="CommitChangelistDialog2" timestamp="1607512609035">
+    <state x="422" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1607861442661" />
+    <state x="219" y="0" key="CommitChangelistDialog2" timestamp="1607651772226">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="525" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1607512609035" />
+    <state x="219" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1607651772226" />
     <state x="121" y="52" key="DiffContextDialog" timestamp="1607391944311">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -209,22 +220,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="616" y="149" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1607519346543" />
-    <state width="694" height="171" key="GridCell.Tab.0.bottom" timestamp="1607602547348">
+    <state width="665" height="104" key="GridCell.Tab.0.bottom" timestamp="1607862633318">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="694" height="171" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607602547348" />
-    <state width="694" height="171" key="GridCell.Tab.0.center" timestamp="1607602547348">
+    <state width="665" height="104" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1607862633318" />
+    <state width="665" height="104" key="GridCell.Tab.0.center" timestamp="1607862633318">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="694" height="171" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607602547348" />
-    <state width="694" height="171" key="GridCell.Tab.0.left" timestamp="1607602547348">
+    <state width="665" height="104" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1607862633318" />
+    <state width="665" height="104" key="GridCell.Tab.0.left" timestamp="1607862633318">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="694" height="171" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607602547348" />
-    <state width="694" height="171" key="GridCell.Tab.0.right" timestamp="1607602547348">
+    <state width="665" height="104" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1607862633318" />
+    <state width="665" height="104" key="GridCell.Tab.0.right" timestamp="1607862633318">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="694" height="171" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607602547348" />
+    <state width="665" height="104" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1607862633318" />
     <state width="1237" height="202" key="GridCell.Tab.1.bottom" timestamp="1607344711210">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -241,18 +252,18 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="202" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1607344711210" />
-    <state x="158" y="0" key="SettingsEditor" timestamp="1607391825318">
+    <state x="28" y="0" key="SettingsEditor" timestamp="1607853825715">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="158" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1607391825318" />
+    <state x="28" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1607853825715" />
     <state x="233" y="81" key="Vcs.Push.Dialog.v2" timestamp="1607512655189">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="81" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1607512655189" />
-    <state x="628" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1607566992090">
+    <state x="518" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1607848222240">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="628" y="346" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1607566992090" />
+    <state x="518" y="258" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1607848222240" />
     <state x="439" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607391900484">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -261,14 +272,18 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="56" y="0" key="new project wizard/0.0.1280.689@0.0.1280.689" timestamp="1607252557570" />
-    <state x="337" y="202" width="669" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607391823662">
+    <state x="337" y="202" width="669" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1607603459014">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="337" y="202" width="669" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.689@0.0.1280.689" timestamp="1607391823662" />
+    <state x="337" y="202" width="669" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1280.689@0.0.1280.689" timestamp="1607603459014" />
     <state x="569" y="160" key="run.anything.popup" timestamp="1607254599223">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="569" y="160" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1607254599223" />
+    <state x="219" y="-1" key="search.everywhere.popup" timestamp="1607651738929">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="219" y="-1" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1607651738929" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BitCoinConnect$testConnect.ic" NAME="testConnect Coverage Results" MODIFIED="1607513760485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

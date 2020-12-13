@@ -1,14 +1,8 @@
 package com.BTC.rpcConnect;
 
-import com.BTC.rpcConnect.entity.Bip;
-import com.BTC.rpcConnect.entity.BlockChainInfo;
-import com.BTC.rpcConnect.entity.BlockInfo;
-import com.BTC.rpcConnect.entity.address_type;
-import org.apache.http.HttpStatus;
+import com.BTC.rpcConnect.entity.*;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * 该类用于调用比特币节点的不同功能和方法，并返回相应的结果
@@ -43,6 +37,36 @@ public class testConnect {
         //bc1qskldlzehg5856v693pk0mg9agd3lrge2m9tjg2
         //33cEdnXP77rDu2TnCEBdMmpKEECjRMwbxd
         //1N54aQdkMZifitcMzypMpQwi8Dph4uSPLc
+
+        BlockHeader blockHeader = server.getBlockHeader("000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f");
+        System.out.println("区块的默克尔根是："+blockHeader.getMerkleroot());
+        System.out.println("这个区块头的hash是："+blockHeader.getHash());
+
+        List<Chain> tips = server.getChainTips();
+        System.out.println("标签的状态："+tips.get(0).getStatus());
+
+        System.out.println("当前节点的难度是："+server.getDifficulty());
+
+        MempoolInfo mempool = server.getMempoolInfo();
+        System.out.println("内存池最大为："+mempool.getMaxmempool());
+
+        TXOutSetInfo txOutSetInfo = server.getTXOutSetInfo();
+        System.out.println("交易集合的hash序列化为："+txOutSetInfo.getHash_serialized_2());
+
+        System.out.println("preciousBlock为："+server.preciousBlock("000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f"));
+
+        System.out.println("通过高度修剪区块链："+server.pruneBlockChain(0));
+
+        AddressInfo addressInfo = server.getAddressInfo("1E84A1U5QMb8CM1JxY1YHFdXKWfMUCErvF");
+        System.out.println("地址的公钥是："+addressInfo.getScriptPubKey());
+        System.out.println("地址的公钥脚本："+addressInfo.getScriptPubKey());
+
+        WalletInfo walletInfo = server.getWalletInfo();
+        System.out.println("钱包的版本："+walletInfo.getWalletversion());
+        System.out.println("hdseedID:"+walletInfo.getHdseedid());
+
+        MemoryInfo memoryInfo = server.getMemoryInfo();
+        System.out.println("已用的块数量："+memoryInfo.getLocked().getChunks_free());
     }
 
     /*public String getBestBlockHash(){
